@@ -11,11 +11,11 @@ use Data::Dumper;
 sub main {
   my $opt = Biotool::Getopt->getopt( 
   {
-    name => 'perl-biotool',
+    name => 'injecta',
     version => '0.0.1',
     desc => 'Helps do bio stuff easier and quicker',
     author => 'Torsten Seemann',
-    url => 'https://github.com/tseemann/perl-biotool',
+    url => 'https://github.com/tseemann/injecta',
   },
   {
     indir => { type=>'idir', default=>'/tmp' },
